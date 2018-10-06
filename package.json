@@ -1,0 +1,33 @@
+{
+  "name": "northwind-gulp-webpack-es6",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sameer",
+  "devDependencies": {
+    "@babel/core": "7.1.2",
+    "@babel/plugin-proposal-class-properties": "7.1.0",
+    "@babel/plugin-transform-runtime": "7.1.0",
+    "@babel/polyfill": "7.0.0",
+    "@babel/preset-env": "7.1.0",
+    "@babel/runtime": "7.1.2",
+    "babel-loader": "8.0.4",
+    "css-loader": "0.28.11",
+    "extract-text-webpack-plugin": "3.0.2",
+    "file-loader": "2.0.0",
+    "gulp": "3.9.1",
+    "html-webpack-plugin": "3.2.0",
+    "style-loader": "0.20.1",
+    "uglifyjs-webpack-plugin": "1.1.8",
+    "webpack": "3.8.1",
+    "webpack-dev-server": "2.9.4",
+    "webpack-stream": "5.1.1"
+  },
+  "dependencies": {
+    "jquery": "3.1.1"
+  }
+}
